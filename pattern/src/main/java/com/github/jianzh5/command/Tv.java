@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 IFlyTek. All rights reserved.
+ * Copyright 2018 jianzh5. All rights reserved.
  */
 
 package com.github.jianzh5.command;
@@ -10,7 +10,7 @@ package com.github.jianzh5.command;
  * </p>
  * Description:
  * 具体执行者
- * @author jianzhang11
+ * @author jianzh5
  * @date 2019/3/26 12:06
  */
 public class Tv {
