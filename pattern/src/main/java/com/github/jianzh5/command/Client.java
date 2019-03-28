@@ -26,6 +26,5 @@ public class Client {
         control.changeChannel();
         control.turnOff();
 
-
     }
 }
