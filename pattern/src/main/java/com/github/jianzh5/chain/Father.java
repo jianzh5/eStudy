@@ -10,7 +10,7 @@ package com.github.jianzh5.chain;
  * </p>
  * Description:
  *
- * @author jianzhang11
+ * @author jianzh5
  * @date 2019/3/28 12:18
  */
 public class Father extends Handler {

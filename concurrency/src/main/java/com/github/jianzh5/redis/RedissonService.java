@@ -1,7 +1,3 @@
-/*
- * Copyright 2018 IFlyTek. All rights reserved.
- */
-
 package com.github.jianzh5.redis;
 
 import org.redisson.api.*;
@@ -17,7 +13,7 @@ import java.io.IOException;
  * </p>
  * Description:
  *
- * @author jianzhang11
+ * @author jianzh5
  * @date 2019/3/25 14:00
  */
 @Service("redissonService")
@@ -37,7 +33,7 @@ public class RedissonService {
      *      查看所有键---->keys *
      *      查看key的类型--->type key
      *      查看key的值 ---->get key
-     * @author jianzhang11
+     * @author jianzh5
      * @date 2019/3/25 14:03
      * @param key  key
      * @return RBucket
@@ -49,7 +45,7 @@ public class RedissonService {
 
     /**
      * RMap  映射为  redis server 的 hash 类型
-     * @author jianzhang11
+     * @author jianzh5
      * @date 2019/3/25 14:15
      * @param key key
      * @return RMap
@@ -61,7 +57,7 @@ public class RedissonService {
 
     /**
      * RSortedSet 映射为 redis server 的 list 类型
-     * @author jianzhang11
+     * @author jianzh5
      * @date 2019/3/25 14:17
      * @param key key
      * @return
@@ -74,7 +70,7 @@ public class RedissonService {
 
     /**
      * RSet 映射为 redis server 的set 类型
-     * @author jianzhang11
+     * @author jianzh5
      * @date 2019/3/25 14:45
      * @param key
      * @param <V>
@@ -88,7 +84,7 @@ public class RedissonService {
 
     /**
      *  RList 映射为 redis server的list类型
-     * @author jianzhang11
+     * @author jianzh5
      * @date 2019/3/25 14:47
      * @param key
      * @param <V>
@@ -102,7 +98,7 @@ public class RedissonService {
 
     /**
      * RQueue 映射为 redis server的list类型  队列--先入先出
-     * @author jianzhang11
+     * @author jianzh5
      * @date 2019/3/25 14:50
      * @param key
      * @param <V>
@@ -116,7 +112,7 @@ public class RedissonService {
     /**
      * RDeque 映射为 redis server 的 list类型
      *  双端队列--对头和队尾都可添加或者移除，也遵循队列的先入先出
-     * @author jianzhang11
+     * @author jianzh5
      * @date 2019/3/25 14:52
      * @param key
      * @return
@@ -128,7 +124,7 @@ public class RedissonService {
 
     /**
      * RLock 映射为redis server的string 类型
-     * @author jianzhang11
+     * @author jianzh5
      * @date 2019/3/25 14:54
      * @param key
      * @return
@@ -147,7 +143,7 @@ public class RedissonService {
 
     /**
      * RAtomicLong 映射为redis server的string 类型
-     * @author jianzhang11
+     * @author jianzh5
      * @date 2019/3/25 15:00
      * @param key
      * @return
@@ -165,7 +161,7 @@ public class RedissonService {
 
     /**
      * 消息订阅发布
-     * @author jianzhang11
+     * @author jianzh5
      * @date 2019/3/25 15:04
      * @param key
      * @return

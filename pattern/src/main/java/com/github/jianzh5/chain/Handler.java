@@ -10,7 +10,7 @@ package com.github.jianzh5.chain;
  * </p>
  * Description:
  * 抽象实现类
- * @author jianzhang11
+ * @author jianzh5
  * @date 2019/3/28 12:14
  */
 public abstract class Handler {
@@ -45,7 +45,7 @@ public abstract class Handler {
 
     /**
      * 由具体子类执行
-     * @author jianzhang11
+     * @author jianzh5
      * @date 2019/3/28 14:32
      * @param women 根据业务换成request对象
      */

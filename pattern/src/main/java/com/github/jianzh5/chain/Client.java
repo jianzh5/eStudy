@@ -12,7 +12,7 @@ import java.util.Random;
  * </p>
  * Description:
  *
- * @author jianzhang11
+ * @author jianzh5
  * @date 2019/3/28 12:22
  */
 public class Client {
