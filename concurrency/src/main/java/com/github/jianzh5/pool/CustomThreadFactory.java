@@ -1,7 +1,3 @@
-/*
- * Copyright 2018 jianzh5. All rights reserved.
- */
-
 package com.github.jianzh5.pool;
 
 import java.util.concurrent.ThreadFactory;

@@ -42,7 +42,7 @@ public class ThreadPoolManager {
 
 
     private final ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(SIZE_CORE_POOL, SIZE_MAX_POOL, 0L,
-            TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>(),new CustomThreadFactory("OACustomFactory"));
+            TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>(),new CustomThreadFactory("OACustomFactory"));
 
     /**
      * 初始化线程池

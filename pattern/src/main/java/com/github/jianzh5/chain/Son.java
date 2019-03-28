@@ -1,7 +1,3 @@
-/*
- * Copyright 2018 IFlyTek. All rights reserved.
- */
-
 package com.github.jianzh5.chain;
 
 /**
