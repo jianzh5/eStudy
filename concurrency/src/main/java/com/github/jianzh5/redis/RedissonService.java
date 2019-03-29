@@ -12,7 +12,7 @@ import java.io.IOException;
  * <code>RedissonService</code>
  * </p>
  * Description:
- *
+ * 使用Redisson封装使用方法，后端直接注入此类即可
  * @author jianzh5
  * @date 2019/3/25 14:00
  */
