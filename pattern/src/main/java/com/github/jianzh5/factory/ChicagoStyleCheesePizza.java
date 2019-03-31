@@ -10,11 +10,21 @@ package com.github.jianzh5.factory;
  * @date 2019/3/30下午11:24
  */
 public class ChicagoStyleCheesePizza extends Pizza {
+    PizzaIngredientFactory ingredientFactory;
+
+    public ChicagoStyleCheesePizza(PizzaIngredientFactory pizzaIngredientFactory){
+        this.ingredientFactory = pizzaIngredientFactory;
+    }
+
     public ChicagoStyleCheesePizza(){
         name = "Chicago Style Deep Dish Cheese Pizza";
-        dough = "Extra Thick Crust Dough";
         sauce = "Plum Tomato Sauce";
         toppings.add("Shredded Mozzarella Cheese");
+    }
+
+    @Override
+    void prepare() {
+        dough = ingredientFactory.cretateDough();
     }
 
     @Override

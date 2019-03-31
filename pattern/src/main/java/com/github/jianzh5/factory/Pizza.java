@@ -14,19 +14,15 @@ import java.util.ArrayList;
 public abstract class Pizza {
     //每个pizza都需要名称、面团类型，酱料类型还有佐料
     String name;
-    String dough;
+    Dough dough;
     String sauce;
     ArrayList toppings = new ArrayList();
 
-    void prepare(){
-        System.out.println("Prepareing "+name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding sauce...");
-        System.out.println("Adding toppings...");
-        for (int i = 0; i < toppings.size(); i++) {
-            System.out.println(" " + toppings.get(i));
-        }
-    }
+
+    /**
+     * 从原料工厂制造原料
+     */
+    abstract void prepare();
 
     void bake(){
         System.out.println("Bake for 25 minutes at 350");
@@ -45,4 +41,17 @@ public abstract class Pizza {
         return name;
     }
 
+    public void setName(String name){
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "name='" + name + '\'' +
+                ", dough=" + dough +
+                ", sauce='" + sauce + '\'' +
+                ", toppings=" + toppings +
+                '}';
+    }
 }

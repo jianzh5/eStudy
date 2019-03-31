@@ -12,8 +12,12 @@ package com.github.jianzh5.factory;
 public class ChicagoPizzaStore extends PizzaStore {
     @Override
     protected Pizza createPizza(String type) {
+        Pizza pizza;
+        ChicagoIngredientFactory chicagoIngredientFactory = new ChicagoIngredientFactory();
         if("cheese".equals(type)){
-            return new ChicagoStyleCheesePizza();
+            pizza = new ChicagoStyleCheesePizza(chicagoIngredientFactory);
+            pizza.setName("Chicago Pizza");
+            return pizza;
         }
         return null;
     }
