@@ -5,7 +5,7 @@ package com.github.jianzh5.decorator;
  * <code>Mocha</code>
  * </p>
  * Description:
- *
+ * 具体装饰类
  * @author jam
  * @date 2019/3/29下午10:42
  */

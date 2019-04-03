@@ -5,10 +5,10 @@ package com.github.jianzh5.command;
  * <code>Command</code>
  * </p>
  * Description:
- * 命令接口
- * @author jianzh5
- * @date 2019/3/26 12:05
+ * 命令接口，封装统一的命令
+ * @author jam
+ * @date 2019/4/2下午7:22
  */
 public interface Command {
-    void execute();
+    public void execute();
 }
